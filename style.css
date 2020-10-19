@@ -1,0 +1,88 @@
+html,
+body {
+    margin: 10;
+    padding: 10;
+    background: black;
+}
+
+@font-face {
+    font-family: emulogic;
+    src: url(emulogic.ttf);
+}
+
+#score {
+    font-family: emulogic;
+    color: yellow;
+}
+
+.title,
+.instructions {
+    font-family: emulogic;
+    color: white;
+    text-align: center;
+    list-style: none;
+}
+
+.grid {
+    display: flex;
+    flex-flow: wrap;
+    width: 560px;
+    height: 560px;
+    align-content: center;
+    border: solid black;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-color: yellow;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.wall {
+    background-color: #590995;
+}
+
+.power-pellet {
+    background-color: #c060a1;
+    border-radius: 10px;
+}
+
+.blinky {
+    background-color: red;
+    border-radius: 5px;
+    font-family: emulogic;
+}
+
+.pinky {
+    background-color: pink;
+    border-radius: 5px;
+    font-family: emulogic;
+}
+
+.inky {
+    background-color: cyan;
+    border-radius: 5px;
+    font-family: emulogic;
+}
+
+.clyde {
+    background-color: orange;
+    border-radius: 5px;
+    font-family: emulogic;
+}
+
+.pac-man {
+    background-color: yellow;
+    border-radius: 15px;
+}
+
+.scared-ghost {
+    background-color: aquamarine;
+    font-family: emulogic;
+}
